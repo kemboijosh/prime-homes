@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PrimeHomes | Real Estate</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body { font-family: 'Segoe UI', sans-serif; }
+    .hero-img { height: 600px; object-fit: cover; }
+    .section-padding { padding: 90px 0; }
+    .property-img { width:100%; height:100%; object-fit:cover; border-radius:12px; }
+    .overlay-box { background:#0d1b2a; color:#fff; padding:40px; border-radius:12px; }
+    footer { background:#0d1b2a; color:#fff; }
+    footer a { color:#adb5bd; text-decoration:none; }
+    footer a:hover { color:#fff; }
+  </style>
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+  <div class="container">
+    <a class="navbar-brand fw-bold" href="index.html">PrimeHomes</a>
+    <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navMenu">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navMenu">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+        <li class="nav-item"><a class="nav-link" href="listings.html">Listings</a></li>
+        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- HERO -->
+<div id="hero" class="carousel slide" data-bs-ride="carousel" style="margin-top:70px;">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="https://images.unsplash.com/photo-1568605114967-8130f3a36994" class="d-block w-100 hero-img" alt="Home">
+      <div class="carousel-caption">
+        <h1 class="fw-bold">Find Homes That Match Your Lifestyle</h1>
+        <p>Luxury • Family • Affordable</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- FEATURED SECTION -->
+<section class="section-padding">
+  <div class="container">
+    <div class="row g-5 align-items-center">
+      <div class="col-lg-5 col-md-6">
+        <h2 class="fw-bold">Why Choose PrimeHomes?</h2>
+        <p>We connect you to carefully selected properties in the best locations across Kenya.</p>
+        <ul>
+          <li>Verified Properties</li>
+          <li>Flexible Pricing</li>
+          <li>Professional Support</li>
+        </ul>
+      </div>
+      <div class="col-lg-7 col-md-6">
+        <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c" class="property-img" alt="Interior">
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SPLIT GRID PROPERTIES -->
+<section class="section-padding bg-light">
+  <div class="container">
+    <div class="row g-4">
+      <div class="col-lg-8 col-md-12">
+        <img src="https://images.unsplash.com/photo-1613977257363-707ba9348227" class="property-img" alt="Luxury">
+      </div>
+      <div class="col-lg-4 col-md-6">
+        <div class="overlay-box h-100">
+          <h3>Luxury Villas</h3>
+          <p>Prime locations with modern finishes and private amenities.</p>
+          <strong>From KES 45M</strong>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6">
+        <div class="overlay-box h-100">
+          <h3>Family Homes</h3>
+          <p>Safe neighborhoods close to schools and hospitals.</p>
+          <strong>From KES 18M</strong>
+        </div>
+      </div>
+      <div class="col-lg-8 col-md-12">
+        <img src="https://images.unsplash.com/photo-1599423300746-b62533397364" class="property-img" alt="Family">
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CALL TO ACTION -->
+<section class="section-padding">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-lg-6">
+        <img src="https://images.unsplash.com/photo-1580587771525-78b9dba3b914" class="property-img" alt="Apartment">
+      </div>
+      <div class="col-lg-6">
+        <h2>Ready to Own a Home?</h2>
+        <p>Browse our listings or speak directly to our agents for guided assistance.</p>
+        <a href="contact.html" class="btn btn-dark">Contact Us</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="pt-5">
+  <div class="container">
+    <div class="row g-4">
+      <div class="col-lg-4">
+        <h5>PrimeHomes</h5>
+        <p>Professional real estate solutions across Kenya.</p>
+      </div>
+      <div class="col-lg-4">
+        <h5>Contact</h5>
+        <p>Email: info@primehomes.co.ke</p>
+        <p>Phone: +254 700 000 000</p>
+      </div>
+      <div class="col-lg-4">
+        <h5>Pages</h5>
+        <a href="index.html">Home</a><br>
+        <a href="about.html">About Us</a><br>
+        <a href="contact.html">Contact</a>
+      </div>
+    </div>
+    <hr>
+    <p class="text-center">© 2026 PrimeHomes Ltd</p>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
